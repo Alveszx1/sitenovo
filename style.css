@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Nova;
+    src: url(gGradak.ttf) format(opentype);
+}
+
+@font-face {
+    font-family: Script;
+    src: url(idroid.otf) format(opentype);
+}
+@font-face {
+    font-family: Sono ;
+    src: url(brunin.otf) format(opentype);
+}
+
+* {
+    margin: 0;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+
+}
+nav > ul > li {
+    padding: 10px;
+    color: white;
+    
+}
+
+header > h1 {
+    text-align: center;
+    font-family: Script;
+    padding-top: 20px;
+    color: white;
+    padding: 40px;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+
+header {
+background-image: linear-gradient(to bottom,#616F75,#8096A0, #81B4CA);
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #83a9ac5b;
+}
+
+main {
+
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+    border-radius: 0px;
+
+    
+}
+
+ main > h1 {
+    font-family: Script;
+    padding: 15px;
+    color: #81B4CA;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+ }
+ main > h2 {
+    font-family: Script;
+    padding: 15px;
+    color: #81B4CA;
+    padding: 5px;
+    margin: 15px;
+    background-color:#81b4ca33;
+
+ }
+
+ main > p {
+    margin-bottom: 15px; 
+}
+
+ main > p > a {
+    text-decoration: none;
+    color: #81B4CA;
+    font-weight: 800;
+ }
+
+ main > p {
+    padding: 7px;
+    
+ }
+
+ div{
+    display: flex;
+    justify-content: center;
+}
+ section {
+    background-color: #81B4CA;
+    height: 315px;
+    width: 590;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ aside {
+    background-color: #8096A0;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+ }
+ 
+ aside > h3 {
+    color: white;
+    background-color: rgba(29, 41, 46, 0.267);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 5px;
+    font-family: Script;
+    font-weight: normal;
+ }
+
+ aside > p {
+    padding: 15px;
+ }
+
+ aside {
+    color:#29353b;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+ }
+
+ footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #29353b;
+    color: azure;
+    font-family: Script;
+ }
+
+ nav > ul > li:hover{
+    background-color: #33393b70;
+ }
+
+main a:hover{
+    background-color: #a4ddee85;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 10px;
+ }
+
+ 
+
+
